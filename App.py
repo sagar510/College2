@@ -27,10 +27,10 @@ def insert():
         flash("Data Added Sucessfully")
         fname = request.form['fname']
         lname = request.form['lname']
-        cname = request.form['cname']
+        collegename = request.form['cname']
 
         cur = mysql.connection.cursor()
-        cur.execute("INSERT INTO students (fname,lname,cname) VALUES (%s,%s,%s)", (fname, lname, cname))
+        cur.execute("INSERT INTO students (fname,lname,cname) VALUES (%s,%s,%s)", (fname, lname, collegename))
         mysql.connection.commit()
         return redirect(url_for('index'))
 
