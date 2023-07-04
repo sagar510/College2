@@ -8,15 +8,16 @@ To run the Flask app locally, please follow the steps below:
 
 1. Ensure you have Python installed on your system (version 3.6 or higher).
 
-2. Clone this repository to your local machine using the following command: [https://github.com/sagar510/College2](url)
+2. Clone this repository to your local machine using the following command:
+    git clone [(https://github.com/sagar510/College2)]
  
-3. Install the required dependencies:
+4. Install the required dependencies:
     pip install -r requirements.txt
 
-4. Run the Flask app
+5. Run the Flask app
     python App.py
 
-5. Open your web browser and navigate to `http://localhost:5000` to access the application.
+6. Open your web browser and navigate to `http://localhost:5000` to access the application.
 
 ## Project Structure
 
